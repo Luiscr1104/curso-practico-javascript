@@ -7,7 +7,42 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es el primer taller del curso práctico de javascrpt</p>
+    </header>
+    <section>
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuánto mide cada lado del cuadrado
+            </label>
+            <input id="InputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular área
+            </button>            
+        </form>
+        <h2>Calcula el área y perímetro de un Triangulo</h2>
+        <form action="">
+            <label for="InputLadosTriangulo">
+                Escribe cuánto mide cada lado del Triangulo
+            </label>
+            <input id="InputLadosTriangulo" type="number" />
+            <label for="InputBaseTriangulo">
+                Escribe cuánto mide la base del Triangulo
+            </label>
+            <input id="InputBaseTriangulo" type="number" />
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular perimetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular área
+            </button>            
+        </form>
+    </section>
     <script src="./figuras.js"></script>
 </body>
 </html>
